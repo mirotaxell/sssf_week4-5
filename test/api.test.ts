@@ -264,4 +264,4 @@ describe('Testing graphql api', () => {
   }, 15000);
 });
 
-/*
+*/
