@@ -35,7 +35,6 @@ import {CatTest} from '../src/interfaces/Cat';
 import LoginMessageResponse from '../src/interfaces/LoginMessageResponse';
 import jwt from 'jsonwebtoken';
 
-/*
 describe('Testing graphql api', () => {
   beforeAll(async () => {
     await mongoose.connect(process.env.DATABASE_URL as string);
@@ -49,7 +48,7 @@ describe('Testing graphql api', () => {
   it('responds with a not found message', async () => {
     await getNotFound(app);
   });
-
+  /*
   // test create user
   let userData: LoginMessageResponse;
   let userData2: LoginMessageResponse;
@@ -262,6 +261,5 @@ describe('Testing graphql api', () => {
       expect((error as Error).message).toBe('Brute force attack unsuccessful');
     }
   }, 15000);
+  */
 });
-
-*/
